@@ -20,7 +20,7 @@ public class Util {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm-ss");
         String formattedDateTime = currentDateTime.format(formatter);
 
-        return "/my_data/"+formattedDateTime + " - Struk pembayaran.txt";
+        return "/home/"+formattedDateTime + " - Struk pembayaran.txt";
     }
 
     /**

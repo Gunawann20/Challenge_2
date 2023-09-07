@@ -47,6 +47,7 @@ public class App
                                 MenuController.printStruk(filename);
                             } catch (IOException e) {
                                 System.out.println("Terjadi kesalahan. Gagal mencetak struk pembayaran!");
+                                e.printStackTrace();
                             }
                             return;
                         case 2:
